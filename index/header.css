@@ -1,0 +1,199 @@
+/* 以下top */
+.header {
+    width: 100%;
+    background: #363636;
+    height: 36px;
+}
+
+.header header {
+    width: 1200px;
+    height: 36px;
+    position: relative;
+}
+
+.header header .head-allGames {
+    height: 36px;
+    line-height: 36px;
+}
+
+.header header .head-allGames i.head-allGames-icon {
+    font-size: 13px;
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    line-height: 13px;
+    background-color: #FFF25D;
+    color: #000000;
+}
+
+.header header .head-allGames i.head-allGames-text {
+    /* font-family: .PingFangSC-Regular; */
+    font-size: 12px;
+    color: #FFF25D;
+    height: 13px;
+    line-height: 13px;
+}
+
+.header header .head-allGames .head-greet {
+    box-sizing: border-box;
+    /* font-family: .PingFangSC-Regular; */
+    font-size: 12px;
+    color: #E6E6E6;
+    border-right: 1px solid #4A4A4A;
+}
+
+.header header .head-allGames .head-greet .head-greet-exit {
+    opacity: 0.1;
+    background: #FFFFFF;
+    border-radius: 4px;
+    width: 60px;
+    height: 22px;
+    line-height: 22px;
+    cursor: pointer;
+}
+
+.header header .head-allGames .head-agent {
+    box-sizing: border-box;
+    /* font-family: .PingFangSC-Regular; */
+    font-size: 12px;
+    color: #E6E6E6;
+    border-right: 1px solid #4A4A4A;
+}
+
+.header header .head-allGames .head-money {
+    box-sizing: border-box;
+    /* font-family: .PingFangSC-Regular; */
+    font-size: 12px;
+    color: #E6E6E6;
+    border-right: 1px solid #4A4A4A;
+}
+
+.header header .head-allGames .head-money .head-money-count {
+    color: #FFF25D;
+}
+
+.header header .head-allGames .head-money .head-money-refresh {
+    cursor: pointer;
+}
+
+.header header .head-allGames .head-money .head-money-hide {
+    opacity: 0.1;
+    background: #FFFFFF;
+    border-radius: 4px;
+    width: 36px;
+    height: 22px;
+    cursor: pointer;
+}
+
+.header header .head-allGames .head-money .head-money-charge,
+.header header .head-allGames .head-money .head-money-transfer, 
+.header header .head-allGames .head-money .head-money-withdraw {
+    color: #FFF25D;
+    cursor: pointer;
+}
+
+.header header .head-allGames .head-download {
+    box-sizing: border-box;
+    /* font-family: .PingFangSC-Regular; */
+    font-size: 12px;
+    color: #E6E6E6;
+}
+/* 以上top */
+/* 以下nav */
+.nav {
+    width: 100%;
+    height: 70px;
+    background: #252525;
+}
+.nav .menu-wrap {
+    width: 1200px;
+    height: 70px;
+    line-height: 70px;
+    margin: 0 auto;
+}
+.nav .menu-wrap .menu-icon {
+
+}
+.nav .menu-wrap .menu-icon .menu-icon-logo {
+    width: 166px;
+    height: 34px;
+    background: url(./images/head/menu-icon-logo.png) center center no-repeat;
+}
+.nav .menu-wrap .menu-icon .menu-icon-logo2018 {
+    width: 66px;
+    height: 24px;
+}
+.nav .menu-wrap .menu-nav .menu-ul .menu-li {
+    width: 80px;
+    text-align: center;
+}
+.nav .menu-wrap .menu-nav .menu-ul .menu-li i.menu-index-icon {
+    display: block;
+    background: url(./images/head/menu-icon-index.png) 30px 30px;
+    width: 30px;
+    height: 30px;
+}
+
+.nav .menu-wrap .menu-nav .menu-ul .menu-li i.menu-lottery-icon {
+    display: block;
+    background: url(./images/head/menu-icon-lottery.png) 30px 30px;
+    width: 30px;
+    height: 30px;
+}
+
+.nav .menu-wrap .menu-nav .menu-ul .menu-li i.menu-live-icon {
+    display: block;
+    background: url(./images/head/menu-icon-live.png) 30px 30px;
+    width: 30px;
+    height: 30px;
+}
+
+.nav .menu-wrap .menu-nav .menu-ul .menu-li i.menu-fish-icon {
+    display: block;
+    background: url(./images/head/menu-icon-fish.png) 30px 30px;
+    width: 30px;
+    height: 30px;
+}
+
+.nav .menu-wrap .menu-nav .menu-ul .menu-li i.menu-tiger-icon {
+    display: block;
+    background: url(./images/head/menu-icon-tiger.png) 30px 30px;
+    width: 30px;
+    height: 30px;
+}
+
+.nav .menu-wrap .menu-nav .menu-ul .menu-li i.menu-sport-icon {
+    display: block;
+    background: url(./images/head/menu-icon-sport.png) 30px 30px;
+    width: 30px;
+    height: 30px;
+}
+
+.nav .menu-wrap .menu-nav .menu-ul .menu-li i.menu-poker-icon {
+    display: block;
+    background: url(./images/head/menu-icon-poker.png) 30px 30px;
+    width: 30px;
+    height: 30px;
+}
+
+.nav .menu-wrap .menu-nav .menu-ul .menu-li i.menu-activity-icon {
+    display: block;
+    background: url(./images/head/menu-icon-activity.png) 30px 30px;
+    width: 30px;
+    height: 30px;
+}
+
+.nav .menu-wrap .menu-nav .menu-ul .menu-li i.menu-entertain-icon {
+    display: block;
+    background: url(./images/head/menu-icon-entertain.png) 30px 30px;
+    width: 30px;
+    height: 30px;
+}
+
+.nav .menu-wrap .menu-nav .menu-ul .menu-li i.menu-index-title {
+    display: block;
+    /* font-family: .PingFangSC-Regular; */
+    font-size: 14px;
+    color: #FFFFFF;
+}
+/* 以上nav */
