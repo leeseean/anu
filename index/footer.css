@@ -58,3 +58,15 @@
     line-height: 48px;
     margin: 0 auto;
 }
+
+.footer footer .footer-copyright .footer-copyright-left span {
+    /* font-family: .PingFangSC-Regular; */
+    font-size: 12px;
+    color: #A3A3A3;
+}
+
+.footer footer .footer-copyright .footer-copyright-right span {
+    /* font-family: .PingFangSC-Regular; */
+    font-size: 12px;
+    color: #FFFFFF;
+}

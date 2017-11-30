@@ -1,0 +1,241 @@
+.index-main {
+    background-image: linear-gradient(-180deg, rgba(42,51,79,0.00) 2%, #242D47 9%);
+}
+.index-main .index-main-banner {
+    width: 100%;
+    height: 480px;
+}
+
+.index-main .index-main-announcement {
+    width: 1200px;
+    height: 46px;
+    line-height: 46px;
+    background: rgba(33, 33, 33, 0.90);
+    font-size: 14px;
+    color: #E6E6E6;
+    margin: 0 auto;
+}
+
+.index-main .index-main-announcement .main-announcement-title {
+    /* font-family: .PingFangSC-Regular; */
+    font-size: 14px;
+    color: #FFF25D;
+}
+
+.index-main .index-main-announcement .main-announcement-border {
+    border-right: 1px solid #A6A6A6;
+}
+
+.index-main .index-main-announcement span {
+    height: 14px;
+    line-height: 14px;
+}
+
+.index-main .index-main-slide {
+    width: 1200px;
+    height: 240px;
+    margin: 0 auto;
+}
+
+.index-main .index-main-slide ul>li.slide-li {
+    width: 400px;
+    height: 240px;
+    position: relative;
+}
+
+.index-main .index-main-slide ul>li.slide-li img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.index-main .index-main-slide ul>li.slide-li .slide-title-type {
+    position: absolute;
+    left: 16px;
+}
+
+.index-main .index-main-slide ul>li.slide-li .slide-title {
+    /* font-family: .PingFangSC-Semibold; */
+    font-size: 16px;
+    color: #FFF25D;
+}
+
+.index-main .index-main-slide ul>li.slide-li .slide-type {
+    /* font-family: .PingFangSC-Regular; */
+    font-size: 12px;
+    color: #FFFFFF;
+    display: inline-block;
+    background: #7A64D9;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 8px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.index-main .index-main-slide ul>li.slide-li .slide-sub-title {
+    /* font-family: .PingFangSC-Regular; */
+    font-size: 14px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 16px;
+}
+
+.index-main .index-games {
+    width: 1200px;
+    height: 300px;
+    margin: 0 auto;
+    background: #1A2442;
+}
+
+.index-main .index-games .index-games-left {
+    width: 400px;
+    height: 100%;
+    box-sizing: border-box;
+    border-bottom: 1px solid #2A344F;
+}
+
+.index-main .index-games .index-games-left .games-left-top {
+    width: 400px;
+    height: 98px;
+    line-height: 98px;
+}
+
+.index-main .index-games .index-games-left .games-left-top .hot-lottery-cn {
+    /* font-family: .PingFangSC-Regular; */
+    font-size: 14px;
+    color: #FFFFFF;
+    display: inline-block;
+    border-right: 1px solid #B5B5B5;
+    border-right: 1px solid rgba(181, 181, 181, 0.3);
+}
+
+.index-main .index-games .index-games-left .games-left-top .hot-lottery-en {
+    /* font-family: .PingFangSC-Regular; */
+    font-size: 12px;
+    color: #E6E6E6;
+    display: inline-block;
+}
+
+.index-main .index-games .index-games-left .games-left-ul li.games-left-item {
+    width: 200px;
+    height: 68px;
+    position: relative;
+}
+
+.index-main .index-games .index-games-left .games-left-ul li.games-left-item img {
+    position: absolute;
+    left: 16px;
+    top: 10px;
+}
+
+.index-main .index-games .index-games-left .games-left-ul li.games-left-item .lottery-title {
+    position: absolute;
+    left: 74px;
+    top: 16px;
+    /* font-family: .PingFangSC-Regular; */
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.index-main .index-games .index-games-left .games-left-ul li.games-left-item .lottery-time-count {
+    position: absolute;
+    left: 74px;
+    bottom: 19px;
+    /* font-family: .PingFangSC-Regular; */
+    font-size: 12px;
+    color: #B2B2B2;
+}
+
+.index-main .index-games .index-games-left .games-left-ul li.games-left-item .lottery-time-count em.lottery-time {
+    opacity: 0.15;
+    background: #FFFFFF;
+    border-radius: 8px;
+    width: 44px;
+    height: 16px;
+}
+
+.index-main .index-games .index-games-left .games-left-bottom {
+    width: 400px;
+    height: 98px;
+    line-height: 98px;
+    overflow: hidden;
+    /* font-family: .PingFangSC-Regular; */
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.index-main .index-games .index-games-left .games-left-bottom .good-news-lottery {
+    color: #FFF25D;
+}
+
+.index-main .index-games .index-games-left .games-left-bottom .good-news-money {
+    color: #FFF25D;
+}
+
+.index-main .index-games .index-games-right {
+    width: 600px;
+    height: 300px;
+}
+
+.index-main .index-games .index-games-right .games-right-fish {
+    position: relative;
+    overflow: hidden;
+    width: 220px;
+    height: 300px;
+}
+
+.index-main .index-games .index-games-right .games-right-fish img {
+    position: absolute;
+    left: 20px;
+    bottom: 40px;
+}
+
+.index-main .index-games .index-games-right .games-right-live,
+.index-main .index-games .index-games-right .games-right-slots,
+.index-main .index-games .index-games-right .games-right-sport,
+.index-main .index-games .index-games-right .games-right-chess {
+    position: relative;
+    overflow: hidden;
+    width: 290px;
+    height: 150px;
+}
+
+.index-main .index-games .index-games-right .games-right-live img,
+.index-main .index-games .index-games-right .games-right-slots img,
+.index-main .index-games .index-games-right .games-right-sport img,
+.index-main .index-games .index-games-right .games-right-chess img {
+    position: absolute;
+    right: 51px;
+    bottom: -2px;
+}
+
+.index-main .index-games .index-games-right .games-right-fish .games-fish-cn,
+.index-main .index-games .index-games-right .games-right-fish .games-live-cn,
+.index-main .index-games .index-games-right .games-right-fish .games-slots-cn,
+.index-main .index-games .index-games-right .games-right-fish .games-sport-cn,
+.index-main .index-games .index-games-right .games-right-fish .games-chess-cn {
+    /* font-family: .PingFangSC-Semibold; */
+    position: absolute;
+    font-size: 16px;
+    color: #FFFFFF;
+    left: 16px;
+    top: 20px;
+}
+
+.index-main .index-games .index-games-right .games-right-fish .games-fish-en,
+.index-main .index-games .index-games-right .games-right-fish .games-live-en,
+.index-main .index-games .index-games-right .games-right-fish .games-slots-en,
+.index-main .index-games .index-games-right .games-right-fish .games-sport-en,
+.index-main .index-games .index-games-right .games-right-fish .games-chess-en {
+    /* font-family: .PingFangSC-Semibold; */
+    position: absolute;
+    font-size: 12px;
+    color: #E6E6E6;
+    left: 16px;
+    top: 50px;
+    display: inline-block;
+    border-top: 2px solid rgba(181, 181, 181, 0.3);
+}

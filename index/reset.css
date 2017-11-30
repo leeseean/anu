@@ -154,3 +154,7 @@ table {
 .fr {
     float: right;
 }
+
+a {
+    text-decoration: none;
+}
