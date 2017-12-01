@@ -57,14 +57,15 @@
 
 .header header .top-right-wrap .head-greet .head-greet-exit {
     background: rgba(255, 255, 255, 0.1);
-    padding: 2px 6px;
     border-radius: 4px;
     color: #E6E6E6;
+    text-align: center;
     width: 60px;
     height: 22px;
     line-height: 22px;
     cursor: pointer;
     margin-right: 20px;
+    display: inline-block;
 }
 
 .header header .top-right-wrap .head-agent {
@@ -75,6 +76,10 @@
     color: #E6E6E6;
     border-right: 1px solid #4A4A4A;
     display: inline-block;
+}
+
+.header header .top-right-wrap .head-agent i.down-hook {
+    margin-right: 17px;
 }
 
 .header header .top-right-wrap .head-agent .head-agent-text {
@@ -96,7 +101,7 @@
 }
 
 .header header .top-right-wrap .head-money .head-money-title {
-    margin-left: 20px;
+    margin-left: 16px;
 }
 
 .header header .top-right-wrap .head-money .head-money-count {
@@ -107,14 +112,17 @@
 .header header .top-right-wrap .head-money .head-money-refresh {
     cursor: pointer;
     margin: 0 2px;
+    font-size: 14px;
 }
 
 .header header .top-right-wrap .head-money .head-money-hide {
     background: rgba(255, 255, 255, 0.1);
-    padding: 2px 6px;
     border-radius: 4px;
     width: 36px;
     height: 22px;
+    text-align: center;
+    line-height: 22px;
+    display: inline-block;
     cursor: pointer;
     margin-left: 2px;
     margin-right: 15px;
@@ -132,7 +140,7 @@
 }
 
 .header header .top-right-wrap .head-money .head-money-transfer {
-    margin: 0 20px;
+    margin: 0 19px;
 }
 
 .header header .top-right-wrap .head-money .head-money-withdraw {
@@ -149,6 +157,13 @@
 
 .header header .top-right-wrap .head-download a>i.head-download-icon {
     vertical-align: middle;
+    width: 18px;
+    height: 18px;
+    background: url(./images/head/icon-download.svg) center center no-repeat;
+    background-size: cover;
+    display: inline-block;
+    margin-left: 16px;
+    margin-right: 6px;
 }
 
 .header header .top-right-wrap .head-download a>span.head-download-title {
@@ -176,7 +191,6 @@
 
 .nav .menu-wrap .menu-icon {
     box-sizing: border-box;
-    padding-top: 13px;
     height: 70px;
 }
 
@@ -185,15 +199,24 @@
     width: 166px;
     height: 34px;
     background: url(./images/head/menu-icon-logo.png) center center no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    vertical-align: middle;
 }
 
 .nav .menu-wrap .menu-icon .menu-icon-logo2018 {
     width: 66px;
     height: 24px;
+    display: inline-block;
+    background: url(./images/head/menu-icon-logo2018.svg) center center no-repeat;
+    background-size: cover;
+    vertical-align: middle;
+    margin-left: 9px;
+    margin-top: -4px;
 }
 
 .nav .menu-wrap .menu-nav .menu-ul .menu-li {
-    width: 80px;
+    width: 100px;
     text-align: center;
     box-sizing: border-box;
     padding-top: 10px;
@@ -300,7 +323,11 @@
 
 /* 以上nav */
 
-.icon-down-hook {
-    font-size: 9px;
+.down-hook {
+    display: inline-block;
+    width: 10px;
+    height: 6px;
+    background: url(./images/head/down-hook.svg) center center no-repeat;
+    background-size: cover;
     margin: 0 2px;
 }

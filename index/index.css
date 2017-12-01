@@ -1,8 +1,10 @@
 .index-main {
-    background-image: linear-gradient(-180deg, rgba(42, 51, 79, 0.00) 2%, #242D47 9%);
+    background-image: linear-gradient(-180deg, rgba(42, 51, 79, 0) 0%, #242D47 15%);
+    top: -150px;
+    position: relative;
 }
 
-.index-main .index-main-banner {
+.index-banner-wrap .index-banner {
     width: 100%;
     height: 480px;
 }
@@ -15,6 +17,7 @@
     font-size: 14px;
     color: #E6E6E6;
     margin: 0 auto;
+    position: relative;
 }
 
 .index-main .index-main-announcement .main-announcement-title {
@@ -26,6 +29,8 @@
 .index-main .index-main-announcement .main-announcement-more {
     /* font-family: .PingFangSC-Regular; */
     margin-right: 16px;
+    position: absolute;
+    right: 6px;
 }
 
 .index-main .index-main-announcement .main-announcement-border {
@@ -42,6 +47,10 @@
     line-height: 14px; */
 }
 
+.index-main .index-main-announcement span:not(:first-child) {
+    cursor: pointer;
+}
+
 .index-main .index-main-slide {
     width: 1200px;
     height: 240px;
@@ -52,6 +61,7 @@
     width: 400px;
     height: 240px;
     position: relative;
+    cursor: pointer;
 }
 
 .index-main .index-main-slide ul>li.slide-li img {
@@ -65,6 +75,7 @@
 .index-main .index-main-slide ul>li.slide-li .slide-title-type {
     position: absolute;
     left: 16px;
+    bottom: 41px;
 }
 
 .index-main .index-main-slide ul>li.slide-li .slide-title {
@@ -79,9 +90,7 @@
     color: #FFFFFF;
     display: inline-block;
     background: #7A64D9;
-    height: 20px;
-    line-height: 20px;
-    padding: 0 8px;
+    padding: 4px 8px;
     border-radius: 10px;
     box-sizing: border-box;
 }
@@ -92,6 +101,11 @@
     color: #FFFFFF;
     position: absolute;
     left: 16px;
+    bottom: 16px;
+}
+
+.index-main .index-main-slide ul>li.slide-li .slide-sub-title>ul>li:nth-child(1) {
+    margin-right: 30px;
 }
 
 .index-main .index-games {
@@ -99,6 +113,7 @@
     height: 300px;
     margin: 0 auto;
     background: #1A2442;
+    box-sizing: border-box;
 }
 
 .index-main .index-games .index-games-left {
@@ -110,8 +125,10 @@
 
 .index-main .index-games .index-games-left .games-left-top {
     width: 400px;
-    height: 98px;
-    line-height: 98px;
+    height: 45px;
+    line-height: 45px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #2A344F;
 }
 
 .index-main .index-games .index-games-left .games-left-top .hot-lottery-cn {
@@ -121,6 +138,10 @@
     display: inline-block;
     border-right: 1px solid #B5B5B5;
     border-right: 1px solid rgba(181, 181, 181, 0.3);
+    padding-left: 16px;
+    padding-right: 9px;
+    height: 16px;
+    line-height: 16px;
 }
 
 .index-main .index-games .index-games-left .games-left-top .hot-lottery-en {
@@ -128,12 +149,34 @@
     font-size: 12px;
     color: #E6E6E6;
     display: inline-block;
+    padding-left: 6px;
+}
+
+.index-main .index-games .index-games-left .games-left-ul {
+    box-sizing: border-box;
 }
 
 .index-main .index-games .index-games-left .games-left-ul li.games-left-item {
     width: 200px;
     height: 68px;
     position: relative;
+    border-bottom: 1px solid #2A344F;
+    border-right: 1px solid #2A344F;
+    box-sizing: border-box;
+}
+
+.index-main .index-games .index-games-left .games-left-ul li.games-left-item .lottery-suggest {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.index-main .index-games .index-games-left .games-left-ul li.games-left-item .lottery-suggest i.suggest-icon {
+    display: inline-block;
+    width: 33px;
+    height: 33px;
+    background: url(./images/index/icon-suggest.svg) center center no-repeat;
+    background-size: cover;
 }
 
 .index-main .index-games .index-games-left .games-left-ul li.games-left-item img {
@@ -154,28 +197,46 @@
 .index-main .index-games .index-games-left .games-left-ul li.games-left-item .lottery-time-count {
     position: absolute;
     left: 74px;
-    bottom: 19px;
+    bottom: 16px;
     /* font-family: .PingFangSC-Regular; */
     font-size: 12px;
     color: #B2B2B2;
 }
 
 .index-main .index-games .index-games-left .games-left-ul li.games-left-item .lottery-time-count em.lottery-time {
-    opacity: 0.15;
-    background: #FFFFFF;
+    background: rgba(255, 255, 255, 0.15);
     border-radius: 8px;
     width: 44px;
     height: 16px;
+    display: inline-block;
+    text-align: center;
+    line-height: 16px;
+    margin-right: 12px;
 }
 
 .index-main .index-games .index-games-left .games-left-bottom {
     width: 400px;
-    height: 98px;
-    line-height: 98px;
+    height: 45px;
+    line-height: 45px;
     overflow: hidden;
     /* font-family: .PingFangSC-Regular; */
     font-size: 12px;
     color: #FFFFFF;
+}
+
+.index-main .index-games .index-games-left .games-left-bottom .left-bottom-wrap {
+    width: 356px;
+    height: 45px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.index-main .index-games .index-games-left .games-left-bottom .left-bottom-wrap>ul {
+    width: 9999999999999999999999999px;
+}
+
+.index-main .index-games .index-games-left .games-left-bottom .good-news-item {
+    margin: 0 15px;
 }
 
 .index-main .index-games .index-games-left .games-left-bottom .good-news-lottery {
@@ -187,7 +248,7 @@
 }
 
 .index-main .index-games .index-games-right {
-    width: 600px;
+    width: 800px;
     height: 300px;
 }
 
@@ -196,12 +257,29 @@
     overflow: hidden;
     width: 220px;
     height: 300px;
+    background: url(./images/index/game-bg-fish.jpg) center center no-repeat;
 }
 
 .index-main .index-games .index-games-right .games-right-fish img {
     position: absolute;
     left: 20px;
     bottom: 40px;
+}
+
+.index-main .index-games .index-games-right .games-right-live {
+    background: url(./images/index/game-bg-live.jpg) center center no-repeat;
+}
+
+.index-main .index-games .index-games-right .games-right-slots {
+    background: url(./images/index/game-bg-slots.jpg) center center no-repeat;
+}
+
+.index-main .index-games .index-games-right .games-right-sport {
+    background: url(./images/index/game-bg-sport.jpg) center center no-repeat;
+}
+
+.index-main .index-games .index-games-right .games-right-chess {
+    background: url(./images/index/game-bg-chess.jpg) center center no-repeat;
 }
 
 .index-main .index-games .index-games-right .games-right-live,
@@ -224,10 +302,10 @@
 }
 
 .index-main .index-games .index-games-right .games-right-fish .games-fish-cn,
-.index-main .index-games .index-games-right .games-right-fish .games-live-cn,
-.index-main .index-games .index-games-right .games-right-fish .games-slots-cn,
-.index-main .index-games .index-games-right .games-right-fish .games-sport-cn,
-.index-main .index-games .index-games-right .games-right-fish .games-chess-cn {
+.index-main .index-games .index-games-right .games-right-live .games-live-cn,
+.index-main .index-games .index-games-right .games-right-slots .games-slots-cn,
+.index-main .index-games .index-games-right .games-right-sport .games-sport-cn,
+.index-main .index-games .index-games-right .games-right-chess .games-chess-cn {
     /* font-family: .PingFangSC-Semibold; */
     position: absolute;
     font-size: 16px;
@@ -237,20 +315,35 @@
 }
 
 .index-main .index-games .index-games-right .games-right-fish .games-fish-en,
-.index-main .index-games .index-games-right .games-right-fish .games-live-en,
-.index-main .index-games .index-games-right .games-right-fish .games-slots-en,
-.index-main .index-games .index-games-right .games-right-fish .games-sport-en,
-.index-main .index-games .index-games-right .games-right-fish .games-chess-en {
+.index-main .index-games .index-games-right .games-right-live .games-live-en,
+.index-main .index-games .index-games-right .games-right-slots .games-slots-en,
+.index-main .index-games .index-games-right .games-right-sport .games-sport-en,
+.index-main .index-games .index-games-right .games-right-chess .games-chess-en {
     /* font-family: .PingFangSC-Semibold; */
     position: absolute;
     font-size: 12px;
     color: #E6E6E6;
     left: 16px;
-    top: 50px;
+    top: 42px;
     display: inline-block;
     border-top: 2px solid rgba(181, 181, 181, 0.3);
+    padding-top: 5px;
 }
 
 .index-main .index-main-announcement .main-announcement-title .icon-voice {
     margin: 0 12px 0 16px;
+    vertical-align: middle;
+}
+
+.index-main > div.index-main-announcement.clear > span.main-announcement-more > i.icon-more {
+    font-size: 12px;
+}
+
+.footer footer .footer-img-wrap {
+    background: #242D47;
+    padding: 10px 0;
+}
+
+body .footer {
+    margin-top: -150px;
 }
