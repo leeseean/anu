@@ -216,6 +216,10 @@ body>div.footer>footer>div.footer-about-wrap>div>ul.footer-contract-ul.clear>li>
     box-sizing: border-box;
 }
 
+.footer footer .left-fixed .fast-login-client:hover {
+    background-color: #2A344F;
+}
+
 .footer footer .left-fixed .fast-login-client .fast-login-title {
     /* font-family: .PingFangSC-Regular; */
     font-size: 14px;
@@ -279,6 +283,14 @@ body>div.footer>footer>div.footer-about-wrap>div>ul.footer-contract-ul.clear>li>
     cursor: pointer;
     color: #FFFFFF;
     font-size: 20px;
+}
+
+.footer footer .right-fixed .chat-msg:hover,
+.footer footer .right-fixed .customer-service:hover,
+.footer footer .right-fixed .line-switch:hover,
+.footer footer .right-fixed .help-link:hover,
+.footer footer .right-fixed .back-to-top:hover {
+    background: rgba(30,30,30,0.95);
 }
 
 .footer footer .right-fixed .chat-msg .chat-msg-icon,

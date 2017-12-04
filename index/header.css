@@ -133,6 +133,19 @@
 .header header .top-right-wrap .head-money .head-money-withdraw {
     color: #FFF25D;
     cursor: pointer;
+    width: 36px;
+    height: 22px;
+    line-height: 22px;
+    display: inline-block;
+    text-align: center;
+}
+
+.header header .top-right-wrap .head-money .head-money-hide:hover,
+.header header .top-right-wrap .head-money .head-money-charge:hover,
+.header header .top-right-wrap .head-money .head-money-transfer:hover,
+.header header .top-right-wrap .head-money .head-money-withdraw:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
 }
 
 .header header .top-right-wrap .head-money .head-money-charge {
@@ -140,7 +153,7 @@
 }
 
 .header header .top-right-wrap .head-money .head-money-transfer {
-    margin: 0 19px;
+    margin: 0 13px;
 }
 
 .header header .top-right-wrap .head-money .head-money-withdraw {
@@ -320,6 +333,10 @@
     line-height: 30px;
 }
 
+.nav .menu-wrap .menu-nav .menu-ul .menu-li:hover,
+.nav .menu-wrap .menu-nav .menu-ul .menu-li.active {
+    background: #434343;
+}
 
 /* 以上nav */
 

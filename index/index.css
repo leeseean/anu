@@ -62,6 +62,7 @@
     height: 240px;
     position: relative;
     cursor: pointer;
+    overflow: hidden;
 }
 
 .index-main .index-main-slide ul>li.slide-li img {
@@ -70,6 +71,11 @@
     right: 0;
     top: 0;
     bottom: 0;
+}
+
+.index-main .index-main-slide ul>li.slide-li img:hover {
+    transition: 0.3s all ease;
+    transform: scale(1.1);
 }
 
 .index-main .index-main-slide ul>li.slide-li .slide-title-type {
@@ -163,6 +169,10 @@
     border-bottom: 1px solid #2A344F;
     border-right: 1px solid #2A344F;
     box-sizing: border-box;
+}
+
+.index-main .index-games .index-games-left .games-left-ul li.games-left-item:hover {
+    background: #2A344F;
 }
 
 .index-main .index-games .index-games-left .games-left-ul li.games-left-item .lottery-suggest {
@@ -260,11 +270,6 @@
     background: url(./images/index/game-bg-fish.jpg) center center no-repeat;
 }
 
-.index-main .index-games .index-games-right .games-right-fish img {
-    position: absolute;
-    left: 20px;
-    bottom: 40px;
-}
 
 .index-main .index-games .index-games-right .games-right-live {
     background: url(./images/index/game-bg-live.jpg) center center no-repeat;
@@ -292,6 +297,39 @@
     height: 150px;
 }
 
+.index-main .index-games .index-games-right .games-right-fish .games-hover-opacity,
+.index-main .index-games .index-games-right .games-right-live .games-hover-opacity,
+.index-main .index-games .index-games-right .games-right-slots .games-hover-opacity,
+.index-main .index-games .index-games-right .games-right-sport .games-hover-opacity,
+.index-main .index-games .index-games-right .games-right-chess .games-hover-opacity {
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: #ffffff;
+    opacity: 0.15;
+    position: absolute;
+}
+
+.index-main .index-games .index-games-right .games-right-fish:hover .games-hover-opacity,
+.index-main .index-games .index-games-right .games-right-live:hover .games-hover-opacity,
+.index-main .index-games .index-games-right .games-right-slots:hover .games-hover-opacity,
+.index-main .index-games .index-games-right .games-right-sport:hover .games-hover-opacity,
+.index-main .index-games .index-games-right .games-right-chess:hover .games-hover-opacity {
+    transition: all 0.3s ease;
+    display: block;
+}
+
+.index-main .index-games .index-games-right .games-right-fish img {
+    position: absolute;
+    left: 20px;
+    bottom: 40px;
+}
+
+.index-main .index-games .index-games-right .games-right-fish:hover img {
+    bottom: 44px;
+    transition: all 0.3s ease;
+}
+
 .index-main .index-games .index-games-right .games-right-live img,
 .index-main .index-games .index-games-right .games-right-slots img,
 .index-main .index-games .index-games-right .games-right-sport img,
@@ -299,6 +337,14 @@
     position: absolute;
     right: 51px;
     bottom: -2px;
+}
+
+.index-main .index-games .index-games-right .games-right-live:hover img,
+.index-main .index-games .index-games-right .games-right-slots:hover img,
+.index-main .index-games .index-games-right .games-right-sport:hover img,
+.index-main .index-games .index-games-right .games-right-chess:hover img {
+    bottom: 2px;
+    transition: all 0.3s ease;
 }
 
 .index-main .index-games .index-games-right .games-right-fish .games-fish-cn,
@@ -333,6 +379,10 @@
 .index-main .index-main-announcement .main-announcement-title .icon-voice {
     margin: 0 12px 0 16px;
     vertical-align: middle;
+}
+
+.index-main .index-main-announcement .main-announcement-item:hover {
+    color: #ffffff;
 }
 
 .index-main > div.index-main-announcement.clear > span.main-announcement-more > i.icon-more {
